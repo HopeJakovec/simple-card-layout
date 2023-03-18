@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Montserrat:wght@700&family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#ccc;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;  
+    background-color: #fff;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+.container__header2 {
+    margin-top: 122px;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    color: #212121;
+}
+
+.container__text {
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: regular;
+    line-height: 22px;
+    text-align: center;
+    color: #9FA3A7;
+}
+
+.container__items {
+    margin: 55px auto 139px;
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    border: 1px solid #E8E9ED;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.container__items .item {
+    width: 50%;
+}
+
+.container__items .item02 {
+    background-color: #8F75BE;
+}
+
+.container__items .header4 {
+    margin-top: 81px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #9FA3A7;
+}
+
+.container__items .item02 .header4 {
+    color: #FFC80A;
+}
+
+.container__items .header3 {
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 210px;
+    font-family: 'Arvo', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    color: #212121;
+}
+
+.container__items .item02 .header3,
+.container__items .item02 .items-text {
+    color: #fff;
+}
+
+.container__items .items-text {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 210px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: center;
+    color: #9FA3A7;
+}
+
+.container__items .item-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 64.5px auto 93.5px;
+    width: 147px;
+    height: 46px;
+    border: 3px solid #FFC80A;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 2.4px;
+    color: #212121;
+    background-color: #fff;
+}
+
+.container__items .item02 .item-button {
+    background-color: #8F75BE;
+    color: #fff;
+}
